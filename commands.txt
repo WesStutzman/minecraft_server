@@ -1,0 +1,42 @@
+# Run the following commands as root
+
+apt-get update -y
+apt-get install -y ssh sudo
+nano /etc/group
+  # Add username "minecraft" after the following lines
+  # sudo
+  # ssh
+ip addr show
+shutdown now -r
+
+
+
+# Run the following commands as minecraft
+
+mkdir minecraft_server
+ls
+pwd
+
+
+
+# Run the following commands as windows user
+ls
+cd Downloads
+scp minecraft_server.1.12.1.jar minecraft@192.168.1.18:/home/minecraft/minecraft_server
+
+
+
+# Run the following commands as minecraft user
+
+sudo apt-get install -y htop tmux default-jre
+nano start.bash
+
+# The following is the contents of the file
+
+#!/bin/bash
+java -Xmx1024M -Xms1024M -jar minecraft_server.1.12.1.jar nogui
+
+
+./start
+
+# End of commands for minecraft user

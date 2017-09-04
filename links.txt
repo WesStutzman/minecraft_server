@@ -1,0 +1,4 @@
+https://linuxmint.com/
+https://www.virtualbox.org/wiki/Downloads
+https://git-scm.com/downloads
+https://minecraft.net/en-us/download/
