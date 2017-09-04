@@ -20,6 +20,7 @@ pwd
 
 
 # Run the following commands as windows user
+
 ls
 cd Downloads
 scp minecraft_server.1.12.1.jar minecraft@192.168.1.18:/home/minecraft/minecraft_server
