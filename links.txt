@@ -1,4 +1,9 @@
-https://linuxmint.com/
-https://www.virtualbox.org/wiki/Downloads
+https://www.debian.org/
 https://git-scm.com/downloads
 https://minecraft.net/en-us/download/
+
+# If you are running a physical machine use this link
+https://rufus.akeo.ie/
+
+# If you are running a virtual machine use this link
+https://www.virtualbox.org/wiki/Downloads
